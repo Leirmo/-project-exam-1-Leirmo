@@ -23,7 +23,7 @@ p {
 a {
   cursor: pointer;
 }
-/*Test*/
+
 .cta {
   background: none;
   border: none;
@@ -106,14 +106,14 @@ nav li {
 }
 
 .brand-name {
-  font-size: 30px;
+  font-size: 20px;
   color: #ffd700;
   position: relative;
   text-align: center;
   padding-right: 30px;
 }
 
-@media (min-width: 1130px) {
+@media (min-width: 700px) {
   .hamburger_icon {
     display: none;
   }
@@ -188,7 +188,7 @@ main {
   align-items: center;
   max-width: 700px;
   padding: 50px;
-  margin: 50px;
+  margin: 10px;
 }
 
 .welcome {
@@ -205,25 +205,30 @@ main {
   border-left: solid;
   display: grid;
   padding: 7px;
-  margin: 70px;
+  margin: 40px 10px;
 }
 
 .carousel-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .carousel {
   position: relative;
   width: 100%;
+  color: #a31f1f;
+}
+
+.carousel a {
   color: #fff;
+  text-decoration: none;
 }
 
 .carousel-item {
   height: 450px;
-  width: 100%;
+  max-width: 100%;
   background-color: #228b22;
   padding: 10px 15px 0 0;
   display: none;
@@ -273,7 +278,7 @@ img {
 
 .products {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .products a {
@@ -297,7 +302,7 @@ img {
   color: #000;
 }
 
-@media (min-width: 1130px) {
+@media (min-width: 700px) {
   .box {
     max-width: 700px;
     border-top: solid;
@@ -305,6 +310,10 @@ img {
     display: grid;
     padding: 30px;
     margin: 70px;
+  }
+
+  .products {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -357,8 +366,8 @@ textarea {
 }
 
 .about-section {
-  margin: 50px auto;
-  padding: 50px;
+  margin: 10px;
+  padding: 20px;
   border-top: solid;
   border-left: solid;
   max-width: 1000px;
@@ -366,6 +375,10 @@ textarea {
 
 .about-section p {
   color: #000;
+}
+
+.contact {
+  padding-bottom: 20px;
 }
 
 /*Product Page*/
