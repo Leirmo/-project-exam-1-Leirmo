@@ -238,7 +238,7 @@ main {
 
 img {
   height: 200px;
-  width: 90%;
+
   border-radius: 10px;
   background-position: center;
   background-repeat: no-repeat;
@@ -260,6 +260,10 @@ img {
 }
 .carousel button {
   padding-left: 560px;
+}
+
+.carousel img {
+  width: 90%;
 }
 
 .carousel-button {
